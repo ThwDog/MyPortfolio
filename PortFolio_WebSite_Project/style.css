@@ -82,3 +82,68 @@ nav ul li a:hover::after
     font: 1.2rem "Fira Sans", sans-serif;
     font-weight: bold;
 }
+
+section
+{
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: 1.2rem "Fira Sans", sans-serif;
+    font-size: 48px;
+}
+
+.home
+{
+    background-color: black;
+}
+
+.aboutme
+{
+    background-color: gray;
+}
+
+.mywork
+{
+    background-color: rgb(255, 12, 12);
+}
+
+.contact
+{
+    background-color: rgb(200, 255, 0);
+}
+
+:root {
+    scroll-behavior: smooth;
+}
+
+.stp
+{
+    all: unset;
+    position: fixed;
+    bottom: 25px;
+    right: 30px;
+    height: 90px;
+    width: 90px;
+    background-color: black;
+    border-radius: 99%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.stp:focus
+{
+    opacity: 0.7;
+}
+
+.stp .arrow-up
+{
+    height: 28px;
+    width: 28px;
+    border-left: 4px solid white;
+    border-bottom: 4px solid white;
+    transform: rotate(135deg);
+    margin-bottom: -14px;
+    pointer-events: none;
+}
